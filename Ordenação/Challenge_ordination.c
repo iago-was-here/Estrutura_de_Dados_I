@@ -1,3 +1,7 @@
+//A proposta do desafio era ordenar uma frase contida em uma matriz
+//A função split matriz retorna uma matriz com cada palavra em uma linha
+//A função ordenaMatriz utiliza a função strcmp para comparar as palavras e ordena-las
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
