@@ -15,3 +15,19 @@
   - Gerenciada pelas funções malloc e free (#stdlib):
     - malloc(): requisita memória - void * malloc ( size_t numero de bytes );
     - free(): libera a memória alocada - void * malloc ( size_t numero de bytes );
+
+## Ordenação
+- "Ordenação é o processo de arranjar um conjunto de informações semelhantes em uma ordem crescente ou descrente."
+- Categorias gerais de algoritmos de ordenação:
+  - Algoritmos que ordenam matrizes: (nos quais existem tres metodos gerais de ordenação)
+    - Troca
+      - Bubble Sort (Ordenação bolha): envolve repetidas comparações e se necessário a troca de dois elementos adjacentes.
+      - Implementação: https://github.com/iago-was-here/Estrutura_de_Dados_I/blob/main/Ordena%C3%A7%C3%A3o/bubble_sort.c
+    - Seleção
+    - Inserção
+  - Algoritmos que ordenam arquivos sequenciais em disco.
+  - Critérios gerais para avaliação de um algoritmo:
+    - Velocidade de ordenção no caso médio.
+    - Velocidade do melhor e do pior caso.
+    - Comportamento natural ou não natural.
+    - Rearranja elementos de chaves iguais.
